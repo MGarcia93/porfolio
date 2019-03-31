@@ -1,0 +1,160 @@
+ body{
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+
+}
+
+
+
+a{
+	text-decoration: none;
+	color: rgb(50,50,50);
+}
+
+a:visited{
+	color: rgb(50,50,50);
+}
+
+ figure{
+ 	border-radius: 50%;
+ 	overflow: hidden;
+ 	width: 225px;
+ 	height: 225px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ }
+
+ figure img{
+ 	margin-left: -10px;
+ 	margin-top:-10px;
+
+ }
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	padding-bottom: 1.5em;
+	color: rgb(210,210,210);
+	background: rgba(50,50,50,0.5);
+	text-align: center;
+}
+header h1{
+	margin-left: 7em ;
+	margin-bottom: 0;
+	font-size: 3em;
+
+}
+header h3{
+	margin-left: 6em; 
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 1.5em;
+
+}
+
+
+.lateral{
+	position: fixed;
+	top:0;
+	left:2%;
+	width: 30%;
+	height: 95%;
+	margin:0;
+	padding: 2px;
+	background: #669470;
+	color: rgb(50,50,50);
+
+}
+
+.lateral h2{
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-family: "Bell MT";
+	color: #206c6c;
+	text-align: center;
+
+}
+
+.lateral__header{
+	position: relative;
+	top:0;
+
+}
+.lateral__content{
+	position: relative;
+}
+.lateral__footer{
+	position: absolute;
+	bottom: 3em;
+	padding-bottom: 1em; 
+	width: 100%;
+}
+.educacion h3{
+	margin-left: 10px;
+	margin-bottom: 0;
+	margin-top: 0;
+
+}
+
+.educacion{
+	margin-top: 0;
+}
+
+.contacto{
+	margin:2px auto;
+}
+.contacto ul{
+	margin-top:0;
+	list-style: none;
+	padding-left: 10px;
+}
+.contacto li span{
+	vertical-align: center;
+	margin: -2em;
+}
+.contacto img{
+	width: 2em;
+	margin-right: 0.2em; 
+}
+
+ p{
+	 text-align: justify;
+  	text-justify: inter-word;
+	margin: 0 1em;
+}
+
+
+
+
+
+
+.contenido{
+	position: absolute;
+	top:17%;
+	left: 35%;
+	width: 60%;
+	height: 100%;
+	padding-left: 2em;
+	font-size: 1.2em;
+}
+
+.contenido h2{
+	margin-bottom: 0;
+}
+hr{
+	margin: 0;
+}
+
+.proyecto li{
+	display: inline-block;
+	border-radius: 15%;
+	border:solid rgba(10,58,109,0.8);
+	background: #144481;
+	padding: 2px 3px;
+	color: lightgray;
+
+}
